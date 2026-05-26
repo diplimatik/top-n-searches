@@ -4,11 +4,14 @@ Initial requirement of the task is to implement the system to perform heavy laod
 ### Arslanaliev Agai
 
 # 1.Local Setup:
-to run the docker image simply enter:
+* to run the docker image simply enter:
 ```
 docker-compose up -d --build
 ```
-api enpoints are:
+
+* localhost running on port **8080**
+
+* api enpoints are:
 > ```/api/trends?limit=nTopRequests``` *GET*
  
 > ```/api/stoplist``` *DELETE* or *POST*
