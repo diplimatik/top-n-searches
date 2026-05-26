@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s #metrics freqquency
+
+scrape_configs:
+  - job_name: 'top-searches-app'
+    static_configs:
+      - targets: ['app:8080']
