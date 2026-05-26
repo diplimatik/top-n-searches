@@ -20,6 +20,10 @@ docker-compose up -d --build
 
 > ```/metrics``` *GET*
 
+* to simulate service that produces to kafka simply use:
+```
+docker exec -it kafka kafka-console-producer --bootstrap-server localhost:9092 --topic search-logs
+```
 
 # 2. Kafka Payload
 
