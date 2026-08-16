@@ -1,6 +1,6 @@
 Initial requirement of the task is to implement the system to perform heavy laoded tasks on reading top N popular searches. Number of clients in WB is huge so my design focuses on using golangs atomics and Sliding window algorithm (the idea is to make buckets responsible for each second of 5 mins span that gonna content ... )
 
-# Backend Task Top-N Searches
+# E-commerce Top-N Searches
 ### Arslanaliev Agai
 
 # 1.Local Setup:
